@@ -1,0 +1,41 @@
+﻿<Window x:Class="JsonEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonEditor"
+        mc:Ignorable="d"
+        Title="JSON Books editor" Width="900" MinWidth="900" Height="450" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="Open" Click="Open_Click"/>
+                <MenuItem Header="Save" Click="Save_Click"/>
+            </MenuItem>
+            <MenuItem Header="About" Click="About_Click"/>
+            <MenuItem Header="Exit" Click="Exit_Click"/>
+        </Menu>
+        <DockPanel>
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Top">
+                <StackPanel Orientation="Horizontal" Margin="5, 10, 5, 0">
+                    <TextBlock Text="Search By:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <ComboBox x:Name="SearchByComboBox" Width="150" Margin="0,0,10,0">
+                        <ComboBoxItem Content="Title" IsSelected="True"/>
+                        <ComboBoxItem Content="Author"/>
+                        <ComboBoxItem Content="Genre"/>
+                    </ComboBox>
+                    <TextBox x:Name="SearchTextBox" Width="400" Margin="0,0,10,0"/>
+                    <Button Content="Search" Click="Search_Click" Width="100"/>
+                    <Button Content="Clear" Click="ClearSearch_Click" Width="100" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Add Book" Click="AddBook_Click" Width="100" Margin="10"/>
+                    <Button Content="Edit Book" Click="EditBook_Click" Width="100" Margin="10"/>
+                    <Button Content="Delete Book" Click="DeleteBook_Click" Width="100" Margin="10"/>
+                </StackPanel>
+            </StackPanel>
+            <DataGrid x:Name="BooksDataGrid" AutoGenerateColumns="True" DockPanel.Dock="Top" Margin="10" IsReadOnly="True" ColumnWidth="*"/>
+        </DockPanel>
+    </DockPanel>
+</Window>
+    

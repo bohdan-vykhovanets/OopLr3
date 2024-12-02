@@ -1,0 +1,20 @@
+﻿<Window x:Class="JsonEditor.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonEditor"
+        mc:Ignorable="d"
+        Title="About" Height="210" Width="400"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Margin="10">
+            <TextBlock Text="Вихованець Богдан Іванович" FontWeight="DemiBold"/>
+            <TextBlock Text="2 курс, група К-25, 2024 рік" FontWeight="DemiBold"/>
+            <TextBlock Text="Опис програми:"/>
+            <TextBlock TextWrapping="Wrap" Text="Програма розроблена для роботи з JSON файлами, що містять детальну інформацію про книги для продажу. За допомогою цієї програми можна перглядати файл, шукати за назвою, автором, жанром, виданням чи роком видання книги у файлі. Також ви можете додавати, змінювати та видаляти книги у відкритому файлі і зберігати результат у інший файл."/>
+        </StackPanel>
+        <Button DockPanel.Dock="Bottom" Content="Close" Height="20" Width="100" Click="ButtonClose_Clicked"/>
+    </DockPanel>
+</Window>

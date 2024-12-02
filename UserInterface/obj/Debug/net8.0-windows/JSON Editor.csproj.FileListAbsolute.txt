@@ -1,0 +1,24 @@
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\About.g.cs
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\App.g.cs
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor_MarkupCompile.cache
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor_MarkupCompile.lref
+D:\VSProjects\UserInterface\UserInterface\bin\Debug\net8.0-windows\JSON Editor.exe
+D:\VSProjects\UserInterface\UserInterface\bin\Debug\net8.0-windows\JSON Editor.deps.json
+D:\VSProjects\UserInterface\UserInterface\bin\Debug\net8.0-windows\JSON Editor.runtimeconfig.json
+D:\VSProjects\UserInterface\UserInterface\bin\Debug\net8.0-windows\JSON Editor.dll
+D:\VSProjects\UserInterface\UserInterface\bin\Debug\net8.0-windows\JSON Editor.pdb
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\About.baml
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\MainWindow.baml
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.g.resources
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.AssemblyInfoInputs.cache
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.AssemblyInfo.cs
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.csproj.CoreCompileInputs.cache
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.dll
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\refint\JSON Editor.dll
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.pdb
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\JSON Editor.genruntimeconfig.cache
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\ref\JSON Editor.dll
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\BookManager.g.cs
+D:\VSProjects\UserInterface\UserInterface\obj\Debug\net8.0-windows\BookManager.baml
